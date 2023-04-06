@@ -1,6 +1,7 @@
-import React from 'react'
+import React from 'react';
 // To create the links
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import "../styles/Navbar.css"
 
 function Navbar() {
   return (
