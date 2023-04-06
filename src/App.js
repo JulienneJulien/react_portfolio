@@ -9,6 +9,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Resume" element={<Resume />} />
        </Routes>
+       <Footer />
      </Router>
     </div>
   );
