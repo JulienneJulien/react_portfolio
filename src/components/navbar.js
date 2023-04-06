@@ -2,7 +2,7 @@ import React from 'react'
 // To create the links
 import { Link } from 'react-router-dom'
 
-function navbar() {
+function Navbar() {
   return (
     <div className='navbar'> 
     <div className='toggleButton'> 
@@ -18,4 +18,4 @@ function navbar() {
   )
 }
 
-export default navbar
+export default Navbar

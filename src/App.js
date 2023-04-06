@@ -7,12 +7,13 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
-
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
      <Router> 
+      <Navbar/>
        <Routes>
         <Route path="/About" element={<About />} />
         <Route path="/Portfolio" element={<Portfolio />} />
