@@ -13,10 +13,16 @@
   .socialLinks svg{
     color: white;
     margin: 20px;
+    margin-bottom: 0;
     font-size: 50px;
     cursor: pointer;
   }
 
   .socialLinks svg:hover, svg:focus-visible {
     color: #544E41;
+  }
+
+  .footer p {
+    color: white;
+    margin: 0;
   }
