@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className='footer'>
         <div>
-
+        
         </div>
         <p>JayJae &#128156; Coding!</p>
         <p className='footnote'>
