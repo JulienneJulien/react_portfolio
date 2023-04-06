@@ -1,0 +1,22 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    background: #413C58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-top: 200px;
+  }
+
+  .socialLinks svg{
+    color: white;
+    margin: 20px;
+    font-size: 50px;
+    cursor: pointer;
+  }
+
+  .socialLinks svg:hover, svg:focus-visible {
+    color: #544E41;
+  }

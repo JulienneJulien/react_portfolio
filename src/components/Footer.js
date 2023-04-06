@@ -1,17 +1,18 @@
 import React from 'react'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { GitHub, LinkedIn } from '@mui/icons-material';
+import { GitHub, LinkedIn, Layers } from '@mui/icons-material';
+import "../styles/Footer.css"
 
 
 function Footer() {
   return (
     <div className='footer'>
-        <div>
-            
+        <div className='socialLinks'>
         {/* <FontAwesomeIcon icon={faEnvelope} /> */}
         <GitHub/>
         <LinkedIn/>
+        <Layers/>
         </div>
         <p>JayJae &#128156; Coding!</p>
         <p className='footnote'>
