@@ -9,7 +9,7 @@
 
 .portfolio {
     text-align: center;
-    color: #3e497a;
+    color: #413C58;
     font-size: 60px;
     font-weight: bolder;
 }
@@ -27,7 +27,7 @@
     width: 300px;
     height: 300px;
     margin: 40px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 15px #544E41;
     text-align: center;
 }
 
@@ -39,4 +39,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
+}
+
+.projectCards, h2 {
+    font-size: 30px;  
+}
+
+.projectCards:hover , .projectCards:focus-visible {
+    color: #544E41;
+    cursor: pointer;
 }
