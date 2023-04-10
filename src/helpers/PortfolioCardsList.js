@@ -5,29 +5,35 @@ export const PortfolioCards = [
 
 {
    title: 'test1' ,
-   image: profile
+   image: profile,
+   description: 'Lorem ipsum dolor sit amet'
 },
 {
     title: 'test2' ,
-    image: profile
+    image: profile,
+    description: 'Lorem ipsum dolor sit amet'
  },
 
  {
     title: 'test3' ,
-    image: profile
+    image: profile,
+    description: 'Lorem ipsum dolor sit amet'
  },
 
  {
     title: 'test4' ,
-    image: profile
+    image: profile,
+    description: 'Lorem ipsum dolor sit amet'
  },
  {
     title: 'test5' ,
-    image: profile
+    image: profile,
+    description: 'Lorem ipsum dolor sit amet'
  },
  {
     title: 'test6' ,
-    image: profile
+    image: profile,
+    description: 'Lorem ipsum dolor sit amet'
  },
   
 ];
