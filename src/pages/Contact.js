@@ -7,6 +7,14 @@ function Contact() {
     const [error, setErrorMessage] = useState('');
     const {name, email, message} = formState};
 
+    function handleChange(event) {
+      if (event.target.name === 'email') {
+        const
+
+
+
+    }
+
     
 
 
