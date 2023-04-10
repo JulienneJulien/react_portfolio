@@ -10,7 +10,7 @@ function Portfolio() {
       <h2>My Projects</h2>
       <div className='portfolioCards'>
         {PortfolioCards.map((portfolio, index) => {
-          return <ProjectCards id={index} title={portfolio.title} image={portfolio.image} />;
+          return <ProjectCards id={index} title={portfolio.title} image={portfolio.image} github={portfolio.github} deployment={portfolio.deployment}/>;
         })}
         </div>
     </div>

@@ -4,9 +4,12 @@ import profile from '../images/profile.jpg'
 export const PortfolioCards = [
 
 {
-   title: 'test1' ,
+   title: 'PassGenerator' ,
    image: profile,
-   description: 'Lorem ipsum dolor sit amet'
+   description: 'Lorem ipsum dolor sit amet',
+   github: 'https://github.com/JulienneJulien/PassGenerator',
+   deployment: 'https://juliennejulien.github.io/PassGenerator/'
+
 },
 {
     title: 'test2' ,
