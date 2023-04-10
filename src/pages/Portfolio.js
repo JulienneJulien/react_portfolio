@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectCards from '../components/ProjectCards'
-import profile from '../images/profile.jpg'
+// TO IMPORT LIST OF PROJECTS ARRAY
+import {PortfolioCards} from "../helpers/PortfolioCardsList"
 import "../styles/Portfolio.css"
 
 function Portfolio() {
@@ -8,12 +9,9 @@ function Portfolio() {
     <div className='portfolio'>
       <h2>My Projects</h2>
       <div className='portfolioCards'>
-        <ProjectCards title= 'test1' image={profile}/>
-        <ProjectCards title= 'test2' image={profile}/>
-        <ProjectCards title= 'test3' image={profile}/>
-        <ProjectCards title= 'test4' image={profile}/>
-        <ProjectCards title= 'test5' image={profile}/>
-        <ProjectCards title= 'test6' image={profile}/>
+        {PortfolioCards.map((portfolio) => {
+          return <ProjectCards title={portfolio.title} image={portfolio.image} />;
+        })}
         </div>
     </div>
   )

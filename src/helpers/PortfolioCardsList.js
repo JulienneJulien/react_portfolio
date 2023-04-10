@@ -1,7 +1,7 @@
 import profile from '../images/profile.jpg'
 
 
-export const portfolioCards = [
+export const PortfolioCards = [
 
 {
    title: 'test1' ,
@@ -30,4 +30,4 @@ export const portfolioCards = [
     image: profile
  },
   
-]
+];
