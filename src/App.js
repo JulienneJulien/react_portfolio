@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import PorfolioProjectDisplay from './pages/PorfolioProjectDisplay';
 
 function App() {
   return (
