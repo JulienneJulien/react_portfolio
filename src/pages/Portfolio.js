@@ -5,7 +5,6 @@ function Portfolio() {
     <div className='portfolio'>
       <h1>My Projects</h1>
       <div className='projectCards'></div>
-
     </div>
   )
 }
