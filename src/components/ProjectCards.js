@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-function ProjectCards({title, image}) {
+function ProjectCards({title, image, id}) {
     const navigate = useNavigate()
   return (
     <div className='projectCards' onClick={() => {navigate('/portfolios/' + id)}}>
