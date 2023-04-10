@@ -11,6 +11,9 @@ import Resume from './pages/Resume';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import PorfolioProjectDisplay from './pages/PorfolioProjectDisplay';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+
+
 
 function App() {
   return (
