@@ -11,8 +11,8 @@ function Footer() {
         <div className='socialLinks'>
         {/* <FontAwesomeIcon icon={faEnvelope} /> */}
         <a href='https://github.com/JulienneJulien'><GitHub /></a>  
-        <LinkedIn/>
-        <Layers/>
+        <a href='https://www.linkedin.com/in/Julienne-J/'><LinkedIn/></a>
+        <a href='https://stackoverflow.com/users/21582441/julienne-julien?tab=profile'><Layers/></a>
         </div>
         <p>JayJae &#128156; Coding!</p>
         <p className='footnote'>
