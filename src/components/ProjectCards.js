@@ -1,8 +1,11 @@
 import React from 'react'
 
-function ProjectCards() {
+function ProjectCards({title, image}) {
   return (
-    <div>ProjectCards</div>
+    <div className='projectCards'>
+    <div />
+    <h2> </h2>
+    </div>
   )
 }
 
