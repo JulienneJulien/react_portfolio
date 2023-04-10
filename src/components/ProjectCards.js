@@ -3,8 +3,8 @@ import React from 'react'
 function ProjectCards({title, image}) {
   return (
     <div className='projectCards'>
-    <div />
-    <h2> </h2>
+    <div style={{backgroungImage: `url(${image})`}} className='bgImage' />
+    <h2> {title} </h2>
     </div>
   )
 }
