@@ -1,16 +1,39 @@
 .about {
     background-color: #413C58;
     width: 100%;
-    height: 100vh;
-    
-    /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center; */
+    /* height: calc(100vh - 100px); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.introAbout {
-    width:100%;
-   color: white;
+.introAbout h2 ,.introAbout h1{
+     color: white;
+     margin: 2rem;
 }
+
+.skills {
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills h1 {
+    margin:5rem 0 0;
+}
+
+.skillList h2, .skills h1 {
+    color: white;
+    list-style: none ;
+  }
+
+.skillList {
+    color: black;
+    list-style: none ;  
+    font-size: 20px;
+}  

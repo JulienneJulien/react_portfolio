@@ -1,4 +1,3 @@
-import profile from '../images/profile.jpg'
 import fitfolio from '../images/fitfolio.png'
 import apiQuiz from '../images/apiQuiz.png'
 import dudewashmycar from '../images/dudewashmycar.gif'

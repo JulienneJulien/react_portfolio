@@ -1,12 +1,9 @@
 .home {
     width:100%;
     align-items: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: white
 }
 
-.intro {
-    width:100%;
-    background-color: #413C58;
-    height: 100vh;
+.home h1, .intro {
+    color: #413C58;
+    margin: 2rem;
 }
