@@ -26,6 +26,7 @@
 .portfolios svg{
     color: #413C58;
     font-size: 50px; 
+    padding-inline: 10px;
 }
 
 svg:hover, svg:focus-visible{

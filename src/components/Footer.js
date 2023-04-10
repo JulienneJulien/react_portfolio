@@ -10,7 +10,7 @@ function Footer() {
     <div className='footer'>
         <div className='socialLinks'>
         {/* <FontAwesomeIcon icon={faEnvelope} /> */}
-        <GitHub/>
+        <a href='https://github.com/JulienneJulien'><GitHub /></a>  
         <LinkedIn/>
         <Layers/>
         </div>

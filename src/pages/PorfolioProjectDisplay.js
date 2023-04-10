@@ -17,9 +17,10 @@ function PorfolioProjectDisplay() {
         <p>
             <b><i>Description:</i></b> {portfolios.description}
         </p>
+        <div>
         <GitHub />
-        <FontAwesomeIcon icon={faGlobe} />
-       
+        <FontAwesomeIcon icon={faGlobe} size="xs" />
+        </div>
     </div>
     );
 }
