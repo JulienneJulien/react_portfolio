@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { validateEmail } from '../helpers/helper';
+import "../styles/Contact.css";
 
 function Contact() {
 
@@ -35,9 +36,11 @@ function Contact() {
     }
 
         return (
-          <section class="justify-content-center" id="contact-section">
-          <h1 data-testid='h1tag' className="contact">contact </h1>
-          <hr></hr>
+       
+        <div>
+          <h2>Contact</h2> 
+          <p><b><i>Please contact me below!</i></b></p>
+          
           <form class="justify-content-center" id="contact-form">
               <div>
                   <label htmlFor="name">Name:</label>
@@ -51,6 +54,7 @@ function Contact() {
                   <label htmlFor="message">Message:</label>
                   <textarea class="form-control" name="message" defaultValue={message} onBlur={handleChange} rows="7" />
               </div> 
+              <div/>
               {error && (
               <div>
                   <p className="error-text">{error}</p>
@@ -61,8 +65,7 @@ function Contact() {
               <button data-testid='button' class="btn btn-outline-dark mt-4" type="submit" onSubmit={handleSubmit}>Submit</button>
               </div>
           </form>
-      </section>
-
+        </div>  
 
         );
   
