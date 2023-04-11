@@ -9,6 +9,10 @@ function Resume() {
   return (
   <div className='Resume'>
      <h2>Resume</h2> 
+        <br></br>
+     <p>The downloadable link below provides access to my <a href="" class="link">resume</a>
+        <br></br>
+       </p>
 
     <div className='experience'> 
     <VerticalTimeline lineColor='#413C58'>
@@ -33,7 +37,7 @@ function Resume() {
           </h2>
           <p>Diploma</p>
       </VerticalTimelineElement>
-      
+
       <VerticalTimelineElement className='vertical-timeline-element--work' 
         date='2022-2023'
         iconStyle={{ background:"#413C58", color : '#00000'}}
