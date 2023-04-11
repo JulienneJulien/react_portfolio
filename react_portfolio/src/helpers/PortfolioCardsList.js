@@ -27,7 +27,7 @@ export const PortfolioCards = [
  {
     title: 'Dude Wash My Car' ,
     image: dudewashmycar,
-    description: 'This was a group collaborated project. Our product allows users to locate nearby car washes by their entered zipcode and access user local 3 day weather forecast.',
+    description: 'This was a group collaborated project. Our app allows users to locate nearby car washes by their entered zipcode and access user local 3 day weather forecast.',
     github: 'https://github.com/JulienneJulien/dude-wash-my-car',
    deployment: 'https://juliennejulien.github.io/dude-wash-my-car/'
 
@@ -36,7 +36,7 @@ export const PortfolioCards = [
  {
     title: 'WeatherForecast' ,
     image: forecast,
-    description: 'Implementing third party server sided APIs in this project to create a Weather Dashboard.',
+    description: 'Implemented third party server sided APIs in this project to create a Weather Dashboard.',
     github: 'https://github.com/JulienneJulien/weather-dashboard-forecast',
    deployment: 'https://juliennejulien.github.io/weather-dashboard-forecast/'
 
