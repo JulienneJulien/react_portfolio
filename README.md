@@ -15,7 +15,7 @@
   - [Questions](#questions)
   
 ## Deployment
-https://juliennejulien.github.io/
+https://juliennejulien.github.io/react_portfolio/
 
 ## Description
 
