@@ -30,8 +30,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Usage
 ***Please ensure you have followed above steps to install package first!***
 - Access your working directory project folder.
-- On your preferred code editor, use the command line to run `npm start`
-*Runs the app in the development mode.\*
+- On your preferred code editor, use the command line to run
+
+`npm start`
+
+ Runs the app in the development mode.\ 
 - Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 - The page will reload when you make changes.\
