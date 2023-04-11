@@ -1,6 +1,6 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 // To create the links
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import "../styles/Navbar.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faBars} from '@fortawesome/free-solid-svg-icons';
@@ -8,6 +8,12 @@ import {faBars} from '@fortawesome/free-solid-svg-icons';
 
 function Navbar() {
     const [expandNav, setExpandNav] = useState(false);
+
+    const location = useLocation();   
+    useEffect(() => {
+      setExpandNav(false);
+    },  [location]);
+
   return (
     <div className='navbar' id={expandNav ? "open" : "close"}> 
       <div className='toggleButton'> 
