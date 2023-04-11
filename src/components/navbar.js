@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 // To create the links
 import { Link } from 'react-router-dom';
 import "../styles/Navbar.css"
@@ -9,9 +9,11 @@ import {faBars} from '@fortawesome/free-solid-svg-icons';
 function Navbar() {
     const [expandNav, setExpandNav] = useState(false);
   return (
-    <div className='navbar'> 
+    <div className='navbar' id={expandNav ? "open" : "close"}> 
       <div className='toggleButton'> 
-       <button><FontAwesomeIcon icon={faBars} /></button>
+       <button onClick={() => {setExpandNav((prev) => !prev)}}>
+        <FontAwesomeIcon icon={faBars} />
+        </button>
     </div>
     <div className='links'>
         <Link to="/"> Home </Link>
