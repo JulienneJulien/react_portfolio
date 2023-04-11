@@ -49,7 +49,9 @@ function About() {
             <span>RESTful APIs, JSON</span>
             </li>
         </ol>
+        <br></br>
       </div>
+      <br></br>
     </div>
   )
 }

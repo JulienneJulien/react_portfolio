@@ -10,64 +10,62 @@ function Resume() {
   <div className='Resume'>
      <h2>Resume</h2> 
         <br></br>
-     <p>The downloadable link below provides access to my <a href="" class="link">resume</a>
-        <br></br>
-       </p>
+     <p><b><i>This downloadable link provides access to my <a href="https://github.com/JulienneJulien/react_portfolio/files/11195854/RESUME.TECHNICAL.ONE.docx" 
+     class="link">resume</a></i></b></p>
 
     <div className='experience'> 
+    
     <VerticalTimeline lineColor='#413C58'>
-      <VerticalTimelineElement className='vertical-timeline-element--eduation' 
-        date='2022-2023'
-        iconStyle={{ background:"#413C58", color : '#00000'}}
-        icon={<SchoolIcon/>}
->
-        <h2 className='vertical-timeline-element-title'>
-          Highschool
-          </h2>
-          <p>Diploma</p>
-      </VerticalTimelineElement>
-
-      <VerticalTimelineElement className='vertical-timeline-element--eduation' 
-        date='2022-2023'
-        iconStyle={{ background:"#413C58", color : '#00000'}}
-        icon={<SchoolIcon/>}
->
-        <h2 className='vertical-timeline-element-title'>
-          Highschool
-          </h2>
-          <p>Diploma</p>
-      </VerticalTimelineElement>
-
       <VerticalTimelineElement className='vertical-timeline-element--work' 
-        date='2022-2023'
+        date='APR 2018-CURRENT'
         iconStyle={{ background:"#413C58", color : '#00000'}}
         icon={<WorkHistoryIcon/>}
 >
         <h2 className='vertical-timeline-element-title'>
-          Highschool
+        Alight Solutions - Orlando, FL
           </h2>
-          <p>Diploma</p>
+          <p>Customer Support Associate</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement className='vertical-timeline-element--work' 
-        date='2022-2023'
+        date='FEB 2018-APR 2018'
         iconStyle={{ background:"#413C58", color : '#00000'}}
         icon={<WorkHistoryIcon/>}
 >
         <h2 className='vertical-timeline-element-title'>
-          Highschool
+        SeaWorld Parks & Entertainment - Orlando, FL
           </h2>
-          <p>Diploma</p>
+          <p>Food Service Attendant</p>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement className='vertical-timeline-element--eduation' 
+        date='OCT 2022-MAY 2023'
+        iconStyle={{ background:"#413C58", color : '#00000'}}
+        icon={<SchoolIcon/>}
+>
+        <h2 className='vertical-timeline-element-title'>
+        University of Central Florida -Orlando, FL
+          </h2>
+          <p>Certificate Of Completion</p>
+      </VerticalTimelineElement>
+
+      <VerticalTimelineElement className='vertical-timeline-element--eduation' 
+        date='JUN 2017'
+        iconStyle={{ background:"#413C58", color : '#00000'}}
+        icon={<SchoolIcon/>}
+>
+        <h2 className='vertical-timeline-element-title'>
+        Blanche Ely High School - Pompano Beach, FL
+          </h2>
+          <p>High School Diploma</p>
       </VerticalTimelineElement>
       </VerticalTimeline>
-
+      <br></br>
       
       </div>
-    
-      
-  </div>
-  
 
+      <br></br>
+  </div>
   )
 }
 

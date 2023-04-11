@@ -2,9 +2,10 @@ import React from 'react'
 import { useParams } from "react-router-dom"
 import {PortfolioCards} from "../helpers/PortfolioCardsList"
 import { GitHub} from '@mui/icons-material';
+import LanguageIcon from '@mui/icons-material/Language';
 import "../styles/PortfolioProjectDisplay.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 
 // To allow the 'params hook' to connect to our Portfolios route to display defined id.
 function PorfolioProjectDisplay() {
@@ -19,9 +20,17 @@ function PorfolioProjectDisplay() {
         </p>
         <div>
         
-        <a href={portfolios.github}><GitHub /></a>
-        <a href={portfolios.deployment}><FontAwesomeIcon icon={faGlobe} size="xs" /></a>
+        <a href={portfolios.github}><GitHub  /></a>
+        <a href={portfolios.deployment}><LanguageIcon/></a>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         </div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
     </div>
     );
 }

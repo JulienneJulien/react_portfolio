@@ -10,7 +10,7 @@ export const PortfolioCards = [
 {
    title: 'Fitfolio' ,
    image: fitfolio,
-   description: 'Lorem ipsum dolor sit amet',
+   description: "This app allows you to create posts, leave comments on other people's posts, and track your workouts so you can remember what worked and what didn't.",
    github: 'https://github.com/JulienneJulien/fitfolio',
    deployment: 'https://fitfolio.herokuapp.com/'
 
@@ -18,7 +18,7 @@ export const PortfolioCards = [
 {
     title: 'TechBlog' ,
     image: techblog,
-    description: 'Lorem ipsum dolor sit amet',
+    description: "Built a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well.",
     github: 'https://github.com/JulienneJulien/Tech-Blog-MVC',
     deployment: 'https://my-techmvc-blog.herokuapp.com/'
 
@@ -27,7 +27,7 @@ export const PortfolioCards = [
  {
     title: 'Dude Wash My Car' ,
     image: dudewashmycar,
-    description: 'Lorem ipsum dolor sit amet',
+    description: 'This was a group collaborated project. Our product allows users to locate nearby car washes by their entered zipcode and access user local 3 day weather forecast.',
     github: 'https://github.com/JulienneJulien/dude-wash-my-car',
    deployment: 'https://juliennejulien.github.io/dude-wash-my-car/'
 
@@ -36,7 +36,7 @@ export const PortfolioCards = [
  {
     title: 'WeatherForecast' ,
     image: forecast,
-    description: 'Lorem ipsum dolor sit amet',
+    description: 'Implementing third party server sided APIs in this project to create a Weather Dashboard.',
     github: 'https://github.com/JulienneJulien/weather-dashboard-forecast',
    deployment: 'https://juliennejulien.github.io/weather-dashboard-forecast/'
 
@@ -44,7 +44,7 @@ export const PortfolioCards = [
  {
     title: 'Coding Api Quiz' ,
     image: apiQuiz,
-    description: 'Lorem ipsum dolor sit amet',
+    description: 'Created a timed coding quiz with multiple-choice and interactive questions/challenges.',
     github: 'https://github.com/JulienneJulien/coding-api-quiz',
    deployment: 'https://juliennejulien.github.io/coding-api-quiz/'
 
@@ -52,7 +52,7 @@ export const PortfolioCards = [
  {
     title: 'PassGenerator' ,
     image: passGen,
-    description: 'Lorem ipsum dolor sit amet',
+    description: 'This app enables employees to randomly generate passwords',
     github: 'https://github.com/JulienneJulien/PassGenerator',
    deployment: 'https://juliennejulien.github.io/PassGenerator/'
 

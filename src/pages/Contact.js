@@ -37,7 +37,7 @@ function Contact() {
 
         return (
        
-        <div>
+        <div className='contactDiv'>
           <h2>Contact</h2> 
           <p><b><i>Please contact me below!</i></b></p>
           
@@ -64,7 +64,9 @@ function Contact() {
               <div>
               <button data-testid='button' class="btn btn-outline-dark mt-4" type="submit" onSubmit={handleSubmit}>Submit</button>
               </div>
+              <br></br>
           </form>
+          <br></br>
         </div>  
 
         );

@@ -49,3 +49,26 @@
     color: #544E41;
     cursor: pointer;
 }
+
+
+@media only screen and (max-width: 1300px) {
+    .portfolioCards{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .portfolioCards {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+  .portfolioCards {
+      width: 100%;
+    }
+  .projectCards {
+    width: 300px;
+    height: 300px;
+  }
+}

@@ -1,6 +1,7 @@
 .home {
     width:100%;
     align-items: center;
+    background-color: #c4c2bf;
 }
 
 .home h1, .intro {

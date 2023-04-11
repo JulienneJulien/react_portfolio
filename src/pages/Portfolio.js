@@ -12,7 +12,9 @@ function Portfolio() {
         {PortfolioCards.map((portfolio, index) => {
           return <ProjectCards id={index} title={portfolio.title} image={portfolio.image} github={portfolio.github} deployment={portfolio.deployment}/>;
         })}
+          <br></br>
         </div>
+        <br></br>
     </div>
   )
 }
