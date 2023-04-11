@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.7dde4269.css",
-    "main.js": "/react_portfolio/static/js/main.683bc4a8.js",
-    "static/js/787.0e6c9168.chunk.js": "/react_portfolio/static/js/787.0e6c9168.chunk.js",
-    "static/media/fitfolio.png": "/react_portfolio/static/media/fitfolio.99112761115c32b0ea9d.png",
-    "static/media/forecast.png": "/react_portfolio/static/media/forecast.e5afab481c5db605d327.png",
-    "static/media/dudewashmycar.gif": "/react_portfolio/static/media/dudewashmycar.043f755f6dd02eec60f7.gif",
-    "static/media/techblog.png": "/react_portfolio/static/media/techblog.155f6789c3cda08cbb29.png",
-    "static/media/profile.jpg": "/react_portfolio/static/media/profile.93f35b5e50ef64b4329d.jpg",
-    "static/media/passGen.png": "/react_portfolio/static/media/passGen.c4049d086e7bb30dd573.png",
-    "static/media/apiQuiz.png": "/react_portfolio/static/media/apiQuiz.f897cc8f4b154175aadf.png",
-    "index.html": "/react_portfolio/index.html",
-    "main.7dde4269.css.map": "/react_portfolio/static/css/main.7dde4269.css.map",
-    "main.683bc4a8.js.map": "/react_portfolio/static/js/main.683bc4a8.js.map",
-    "787.0e6c9168.chunk.js.map": "/react_portfolio/static/js/787.0e6c9168.chunk.js.map"
+    "main.css": "/static/css/main.7dde4269.css",
+    "main.js": "/static/js/main.532f00ae.js",
+    "static/js/787.0e6c9168.chunk.js": "/static/js/787.0e6c9168.chunk.js",
+    "static/media/fitfolio.png": "/static/media/fitfolio.99112761115c32b0ea9d.png",
+    "static/media/forecast.png": "/static/media/forecast.e5afab481c5db605d327.png",
+    "static/media/dudewashmycar.gif": "/static/media/dudewashmycar.043f755f6dd02eec60f7.gif",
+    "static/media/techblog.png": "/static/media/techblog.155f6789c3cda08cbb29.png",
+    "static/media/profile.jpg": "/static/media/profile.93f35b5e50ef64b4329d.jpg",
+    "static/media/passGen.png": "/static/media/passGen.c4049d086e7bb30dd573.png",
+    "static/media/apiQuiz.png": "/static/media/apiQuiz.f897cc8f4b154175aadf.png",
+    "index.html": "/index.html",
+    "main.7dde4269.css.map": "/static/css/main.7dde4269.css.map",
+    "main.532f00ae.js.map": "/static/js/main.532f00ae.js.map",
+    "787.0e6c9168.chunk.js.map": "/static/js/787.0e6c9168.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7dde4269.css",
-    "static/js/main.683bc4a8.js"
+    "static/js/main.532f00ae.js"
   ]
 }
