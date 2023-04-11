@@ -1,5 +1,5 @@
 {
-  "homepage": "http://JulienneJulien.github.io/react_portfolio",
+  "homepage": "https://juliennejulien.github.io/",
   "name": "react_portfolio",
   "version": "0.1.0",
   "private": true,
@@ -25,9 +25,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "set PORT=3002 && react-scripts start",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b main -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
