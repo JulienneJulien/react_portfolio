@@ -12,10 +12,12 @@
 .home h1, .intro {
     color: #413C58;
     margin: 2rem;
+    
 }
 
 .homeContainer {
-    width: 50%;
+    max-width: 20rem;
+    margin: 0 auto;
 }
 
 .imgHome {

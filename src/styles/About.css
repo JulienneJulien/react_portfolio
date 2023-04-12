@@ -9,6 +9,11 @@
     text-align: center;
 }
 
+.aboutContainer {
+    max-width: 20rem;
+    margin: 0 auto;
+}
+
 .imgAbout {
     width: 100%;
     border-radius: 100%;

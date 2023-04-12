@@ -1,7 +1,7 @@
 
 import './App.css';
 // This enables routing in our REACT APP
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 // EXPLANATION: This should hold everything in our app that requires routing. That is, if we need routing throughout our app, we must wrap our higher component in BrowserRouter.
 import Home from './pages/Home';
 import About from './pages/About';
@@ -18,7 +18,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-     <Router> 
       <Navbar/>
        <Routes>
        <Route path="/" element={<Home />} />
@@ -29,7 +28,6 @@ function App() {
         <Route path="/Resume" element={<Resume />} />
        </Routes>
        <Footer />
-     </Router>
     </div>
   );
 }
