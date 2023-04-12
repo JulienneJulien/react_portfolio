@@ -41,7 +41,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - You may also see any lint errors in the console.
 
 ***See the images and video below for demo.***
-![screencapture-juliennejulien-github-io-2023-04-11-00_54_35](https://user-images.githubusercontent.com/117052258/231059905-cde49b16-45a5-4293-9a41-353f81aa6112.png)
 
 
 
