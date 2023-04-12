@@ -10,7 +10,7 @@ function About() {
             <h2> There is always one more bug to fix. – Ellen Ullman </h2>
 
               <div>
-                <img src={profilepic} alt="portfolio_profile_picture"/> 
+                <img src={profilepic} className='imgAbout' alt="portfolio_profile_picture"/> 
               </div>
 
             <div className='aboutMe'>

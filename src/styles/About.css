@@ -9,6 +9,11 @@
     text-align: center;
 }
 
+.imgAbout {
+    width: 100%;
+    border-radius: 100%;
+}
+
 .introAbout h2 ,.introAbout h1{
      color: white;
      margin: 2rem;

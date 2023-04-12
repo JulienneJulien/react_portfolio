@@ -9,8 +9,8 @@ function Home() {
           <h1> Welcome! &#128075;&#127999; I'm Julienne</h1>
             <h2> There is always one more bug to fix. – Ellen Ullman </h2>
 
-              <div>
-                <img src={profilepic} alt="portfolio_profile_picture"/> 
+              <div className='homeContainer'>
+                <img src={profilepic} className='imgHome' alt="portfolio_profile_picture" /> 
               </div>
 
             <div className='aboutMe'>

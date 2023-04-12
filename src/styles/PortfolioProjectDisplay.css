@@ -1,6 +1,6 @@
 .portfolios {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,11 +10,10 @@
 .portfolios h2 {
     color: #413C58;
     font-size: 30px;
-    margin-top: 50px;
 }
 
 .portfolios img {
-    width: 650px;
+    width: 50%;
     border-radius: 10px;
 }
 
