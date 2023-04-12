@@ -5,8 +5,18 @@ import "../styles/Home.css"
 function Home() {
   return (
     <div className='home'>
+      <div className='wrapper'>
+
+        <span className='firstText'> Welcome! &#128075;&#127999; I'm</span>
+              <ul className='secText'>
+                <li><span>Julienne</span></li>
+                <li><span>a Developer</span></li>
+                <li><span>a Coder</span></li>
+                <li><span>a Designer</span></li>
+              </ul>
+
+      </div>
       <div className='intro'>
-          <h1> Welcome! &#128075;&#127999; I'm Julienne</h1>
             <h2> There is always one more bug to fix. – Ellen Ullman </h2>
 
               <div className='homeContainer'>

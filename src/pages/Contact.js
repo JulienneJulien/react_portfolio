@@ -40,8 +40,8 @@ function Contact() {
         <div class="flex-column justify-content-center" id='contactDiv'>
           <h2>Contact</h2> 
           <p><b><i>Please contact me below!</i></b></p>
-          
-          <form class=" flex-column justify-content-center" id="contact-form">
+
+          <form class=" flex-column justify-content-center" id="contact-form"   >
               <div>
                   <label htmlFor="name">Name:</label>
                   <input class="form-control" type="text" name="name"  defaultValue={name} onBlur={handleChange}/>
@@ -62,7 +62,7 @@ function Contact() {
               )}
   
               <div>
-              <button data-testid='button' class="btn btn-outline-dark mt-4" type="submit" onSubmit={handleSubmit}>Submit</button>
+              <button id='button' data-testid='button' class="btn btn-outline-dark mt-4" type="submit" onSubmit={handleSubmit}>Submit</button>
               </div>
               <br></br>
           </form>

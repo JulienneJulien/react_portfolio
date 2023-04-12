@@ -15,10 +15,10 @@ function Resume() {
 
     <div className='experience'> 
     
-    <VerticalTimeline lineColor='#413C58'>
-      <VerticalTimelineElement className='vertical-timeline-element--work' 
+    <VerticalTimeline lineColor='#cf3acf'>
+      <VerticalTimelineElement id='timelineBox' className='vertical-timeline-element--work' 
         date='APR 2018-CURRENT'
-        iconStyle={{ background:"#413C58", color : '#00000'}}
+        iconStyle={{ background:"#cf3acf", color : 'black'}}
         icon={<WorkHistoryIcon/>}
 >
         <h2 className='vertical-timeline-element-title'>
@@ -29,7 +29,7 @@ function Resume() {
 
       <VerticalTimelineElement className='vertical-timeline-element--work' 
         date='FEB 2018-APR 2018'
-        iconStyle={{ background:"#413C58", color : '#00000'}}
+        iconStyle={{ background:"#cf3acf", color : 'black'}}
         icon={<WorkHistoryIcon/>}
 >
         <h2 className='vertical-timeline-element-title'>
@@ -40,7 +40,7 @@ function Resume() {
 
       <VerticalTimelineElement className='vertical-timeline-element--eduation' 
         date='OCT 2022-MAY 2023'
-        iconStyle={{ background:"#413C58", color : '#00000'}}
+        iconStyle={{ background:"#cf3acf", color : 'black'}}
         icon={<SchoolIcon/>}
 >
         <h2 className='vertical-timeline-element-title'>
@@ -51,7 +51,7 @@ function Resume() {
 
       <VerticalTimelineElement className='vertical-timeline-element--eduation' 
         date='JUN 2017'
-        iconStyle={{ background:"#413C58", color : '#00000'}}
+        iconStyle={{ background:"#cf3acf", color : 'black'}}
         icon={<SchoolIcon/>}
 >
         <h2 className='vertical-timeline-element-title'>

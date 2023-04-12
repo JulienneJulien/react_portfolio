@@ -1,7 +1,15 @@
 .Resume {
     height: auto;
-    background-color:#c4c2bf ;
-    color: black;
+    background-color: black; 
+    color: #cf3acf;
     padding-bottom: 2rem;
 }
 
+
+.vertical-timeline-element-title {
+    box-shadow: 0px 3px 15px rgb(207, 58, 207);  
+}
+
+.experience {
+    box-shadow: 0px 3px 15px rgb(207, 58, 207);    
+}

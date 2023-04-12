@@ -5,10 +5,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: black;
 }
 
 .portfolios h2 {
-    color: #413C58;
+    color: rgb(207, 58, 207);  
     font-size: 30px;
 }
 
@@ -18,17 +19,17 @@
 }
 
 .portfolios p {
-    color: #413C58;
+    color: rgb(207, 58, 207);  
     font-size: 30px; 
 }
 
 .portfolios svg{
-    color: #413C58;
+    color: white;
     font-size: 60px; 
     padding-inline: 5px;
 }
 
 svg:hover, svg:focus-visible{
-    color: #544E41;
+    color:  rgb(207, 58, 207);
     cursor: pointer;
 }

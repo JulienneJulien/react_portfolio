@@ -5,11 +5,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: black;
 }
 
 .portfolio {
     text-align: center;
-    color: #413C58;
+    color: rgb(207, 58, 207);
     font-size: 60px;
     font-weight: bolder;
 }
@@ -27,7 +28,7 @@
     width: 300px;
     height: 300px;
     margin: 40px;
-    box-shadow: 0px 3px 15px #544E41;
+    box-shadow: 0px 3px 15px  rgb(207, 58, 207);
     text-align: center;
 }
 
@@ -46,7 +47,7 @@
 }
 
 .projectCards:hover , .projectCards:focus-visible {
-    color: #544E41;
+    color: rgb(207, 58, 207);
     cursor: pointer;
 }
 
