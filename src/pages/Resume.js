@@ -9,7 +9,7 @@ function Resume() {
   return (
   <div className='Resume'>
      <h2 className='titleNavsPage'>Resume</h2> 
-        <br></br>
+        
      <p><b><i>This downloadable link provides access to my <a href="https://github.com/JulienneJulien/react_portfolio/files/11195854/RESUME.TECHNICAL.ONE.docx" 
      class="link">resume</a></i></b></p>
 

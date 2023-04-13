@@ -5,6 +5,7 @@ import "../styles/About.css"
 function About() {
   return (
     <div className='about'>
+       <h2 className='titleNavsPage'>About Me</h2> 
       <div>
             <h2 className='introAbout'> There is always one more bug to fix. – Ellen Ullman </h2>
 

@@ -20,8 +20,8 @@ function App() {
     <div className="App">
       <Navbar/>
        <Routes>
-       <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
+       <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<About />} />
         <Route path="/Portfolio" element={<Portfolio />} />
         <Route path="/Portfolios/:id" element={<PorfolioProjectDisplay/>} />
         <Route path="/Contact" element={<Contact />} />
