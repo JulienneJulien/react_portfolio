@@ -16,15 +16,14 @@
 }
 
 .portfolios img {
-    width: 50%;
     border-radius: 10px;
     margin-bottom: 2rem;
     box-shadow: 0px 3px 15px  rgb(207, 58, 207);
+    max-width: 60%;
 }
 
 .portfolios p {
     color: rgb(207, 58, 207);  
-    box-shadow: 0px 3px 15px  rgb(207, 58, 207);
     font-size: 30px; 
 }
 
