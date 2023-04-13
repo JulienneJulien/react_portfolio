@@ -41,6 +41,14 @@
     background-size:cover; 
 }
 
+.projectCards {
+    max-width: 100%;
+}
+
+.bgImage {
+  width:80%;
+}
+
 .projectCards h2, .titleNavsPage {
     font-size: 30px;  
     text-shadow: 0 0 10px rgb(207, 58, 207);
