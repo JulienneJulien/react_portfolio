@@ -1,14 +1,29 @@
 import React from 'react'
-import profilepic from '..//images/profile.jpg';
+import homeImg from '..//images/homeImg.png';
 import "../styles/Home.css";
 import Typed from "typed.js";
 
 function Home() {
-  const el = React.useRef(null);
+  const title = React.useRef(null);
 
   React.useEffect(() => {
-    const typed = new Typed(el.current, {
-      strings: ['DEVELOPER', 'CODER' , 'DESIGNER'],
+    const typed = new Typed(title.current, {
+      strings: ['DEVELOPER', 'WEB DESIGNER' , 'CODER'],
+      typeSpeed: 200,
+      loop: false,
+    });
+
+    return () => {
+     
+      typed.destroy();
+    };
+  }, []);
+
+  const quote = React.useRef(null);
+
+  React.useEffect(() => {
+    const typed = new Typed(quote.current, {
+      strings: ['(Hello World!)', '(Nice to see you here!)', '(I enjoy CODING!)'],
       typeSpeed: 100,
       loop: true,
     });
@@ -21,17 +36,18 @@ function Home() {
 
   return (
     <div className='home'>
-            <div>
-               <h1 className='introHome'>Welcome! &#128075;&#127999; I'm Julienne</h1><span className='spanHome' ref={el} />
+            <div className='introContainer'>
+               <h1 className='introHome'>Welcome! &#128075;&#127999; I'm Julienne</h1><span className='spanHome' ref={title} />
 
               </div>
         <div>
               <div className='homeContainer'>
-                <img src={profilepic} className='imgHome' alt="portfolio_profile_picture" /> 
+                <img src={homeImg} className='imgHome' alt="portfolio_profile_picture" /> 
               </div>
 
-            <div className='aboutMeHome'>
-              <h2>The full-stack web development boot camp I am attending makes me passionate about gaining new knowledge and growing as a developer. Front-end web development appeals to me more because it appeals to all my passions. My creativity, curiosity, and problem-solving abilities are all incorporated into it. My goal is to continue learning and growing as a developer, and I strive to put my knowledge to work whenever possible.</h2>
+              <div className='quoteContainer'>
+            <h1 className='quote'>'“It’s kind of fun to do the impossible.” – Walt Disney'</h1>
+              <span className='codeMessage'>console.log</span><span className='spanHome2' ref={quote} />
               <br/>
             </div>
       </div>
