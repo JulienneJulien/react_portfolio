@@ -27,7 +27,7 @@
     width: 300px;
     height: 300px;
     margin: 40px;
-    box-shadow: 0px 3px 15px  rgb(207, 58, 207);
+    box-shadow: 0px 20px 35px rgb(41, 2, 34);
     text-align: center;
 }
 
@@ -35,7 +35,7 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     width: 100%;
-    height: 240px;
+    height: 200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover; 
@@ -47,9 +47,10 @@
     transition: 1s;
 }
 
-.projectCards:hover , .projectCards:focus-visible {
-    color: rgb(207, 58, 207);
+.projectCards:hover {
+    box-shadow:  0px 3px 15px rgb(207, 58, 207);
     cursor: pointer;
+    transition: 0.3s ease-in;
 }
 
 
