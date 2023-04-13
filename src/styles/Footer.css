@@ -27,6 +27,7 @@
 
   .socialLinks svg:hover, svg:focus-visible {
     color:  rgb(207, 58, 207);
+    transition: 1s;
   }
 
   .footer p {

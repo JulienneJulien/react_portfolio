@@ -5,9 +5,8 @@ import "../styles/About.css"
 function About() {
   return (
     <div className='about'>
-      <div className='introAbout'>
-          <h1> Welcome! &#128075;&#127999; I'm Julienne</h1>
-            <h2> There is always one more bug to fix. – Ellen Ullman </h2>
+      <div>
+            <h2 className='introAbout'> There is always one more bug to fix. – Ellen Ullman </h2>
 
               <div className='aboutContainer'>
                 <img src={profilepic} className='imgAbout' alt="portfolio_profile_picture"/> 

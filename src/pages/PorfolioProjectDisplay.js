@@ -23,14 +23,9 @@ function PorfolioProjectDisplay() {
         <a href={portfolios.github}><GitHub  /></a>
         <a href={portfolios.deployment}><LanguageIcon/></a>
         <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        
         </div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        
     </div>
     );
 }

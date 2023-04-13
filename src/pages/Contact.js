@@ -38,7 +38,7 @@ function Contact() {
         return (
        
         <div class="flex-column justify-content-center" id='contactDiv'>
-          <h2>Contact</h2> 
+          <h2 className='titleNavsPage'>Contact</h2> 
           <p><b><i>Please contact me below!</i></b></p>
 
           <form class=" flex-column justify-content-center" id="contact-form"   >
