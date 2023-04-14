@@ -40,8 +40,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - The page will reload when you make changes.\
 - You may also see any lint errors in the console.
 
-***See the images and video below for demo.***
-
 
 
 ## Contributing
