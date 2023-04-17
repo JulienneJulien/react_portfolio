@@ -17,6 +17,8 @@
 ## Deployment
 https://juliennejulien.github.io/react_portfolio/
 
+<img src="https://user-images.githubusercontent.com/117052258/232585784-e6a9f5b8-8581-4338-b257-d0bd2e7b9117.png" width="700" height="500" />
+
 ## Description
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
