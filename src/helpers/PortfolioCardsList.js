@@ -1,4 +1,5 @@
 import fitfolio from '../images/fitfolio.png'
+import fitfolioV2 from '../images/fitfolioV-2.png'
 import apiQuiz from '../images/apiQuiz.png'
 import dudewashmycar from '../images/dudewashmycar.gif'
 import forecast from '../images/forecast.png'
@@ -9,7 +10,7 @@ export const PortfolioCards = [
    
 {
    title: 'FitfolioV-2' ,
-   image: fitfolio,
+   image: fitfolioV2,
    description: "This enhanced app strives to bring you a functional user interface experience.We've incorpoarated in this app the MERN full stack built and created a user interface to easily maneuver requests through the react, semantic ui and material ui frameworks. ",
    github: 'https://github.com/JulienneJulien/fitfolio-v2/blob/main/README.md',
    deployment: 'https://fitfolio-v2.herokuapp.com/'
