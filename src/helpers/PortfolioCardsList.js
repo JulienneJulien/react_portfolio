@@ -6,7 +6,15 @@ import techblog from '../images/techblog.png'
 import passGen from '../images/passGen.png'
 
 export const PortfolioCards = [
+   
+{
+   title: 'FitfolioV-2' ,
+   image: fitfolio,
+   description: "This enhanced app strives to bring you a functional user interface experience.We've incorpoarated in this app the MERN full stack built and created a user interface to easily maneuver requests through the react, semantic ui and material ui frameworks. ",
+   github: 'https://github.com/JulienneJulien/fitfolio-v2/blob/main/README.md',
+   deployment: 'https://fitfolio-v2.herokuapp.com/'
 
+},
 {
    title: 'Fitfolio' ,
    image: fitfolio,
