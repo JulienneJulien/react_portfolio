@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/react_portfolio/static/css/main.e3cfc669.css",
-    "main.js": "/react_portfolio/static/js/main.ea1bd61f.js",
+    "main.js": "/react_portfolio/static/js/main.f985bc9d.js",
     "static/js/787.0e6c9168.chunk.js": "/react_portfolio/static/js/787.0e6c9168.chunk.js",
+    "static/media/fitfolioV-2.png": "/react_portfolio/static/media/fitfolioV-2.8fb742337b1b834c3585.png",
     "static/media/fitfolio.png": "/react_portfolio/static/media/fitfolio.99112761115c32b0ea9d.png",
     "static/media/forecast.png": "/react_portfolio/static/media/forecast.e5afab481c5db605d327.png",
     "static/media/homeImg.png": "/react_portfolio/static/media/homeImg.6cf709445427dc249c10.png",
@@ -13,11 +14,11 @@
     "static/media/apiQuiz.png": "/react_portfolio/static/media/apiQuiz.f897cc8f4b154175aadf.png",
     "index.html": "/react_portfolio/index.html",
     "main.e3cfc669.css.map": "/react_portfolio/static/css/main.e3cfc669.css.map",
-    "main.ea1bd61f.js.map": "/react_portfolio/static/js/main.ea1bd61f.js.map",
+    "main.f985bc9d.js.map": "/react_portfolio/static/js/main.f985bc9d.js.map",
     "787.0e6c9168.chunk.js.map": "/react_portfolio/static/js/787.0e6c9168.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3cfc669.css",
-    "static/js/main.ea1bd61f.js"
+    "static/js/main.f985bc9d.js"
   ]
 }
